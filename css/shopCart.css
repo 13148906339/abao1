@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+@font-face {
+    font-family: "PTsans-Regular";
+    src: url("../font-family/PT_sans-Regular.ttf");
+}
+@font-face {
+    font-family: "PTsans-bold";
+    src: url("../font-family/PTsans-bold.ttf");
+}
+@font-face {
+    font-family: "Poppins-Medium";
+    src: url("../font-family/Poppins-Medium.ttf");
+}
+.content{
+    width: 1170px;
+    height: 700px;
+    margin: 50px auto 0;
+}
+.content_part-one{
+    height: 290px;
+}
+.content_part_one_top{
+    width: 1170px;
+    height: 50px;
+    color: #707273;
+    font-size: 18px;
+    font-family: "PTsans-Regular";
+    background: #ebe9f9;
+    line-height: 50px;
+}
+.content_part_one_top span{
+    text-align: center;
+    margin-right: 141px;
+}
+.content_part_one_top p{
+    display: inline-block;
+    margin-right: 457px;
+    text-indent: 1em;
+}
+.content_part_one_main{
+    width: 1170px;
+    height: 100px;
+    color: #707273;
+}
+.content_part_one_main>img{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.content_part_one_main h3{
+    display: inline-block;
+    margin: 30px 0 0 50px;
+    color: #7b6cd5;
+}
+.content_part_one_main strong{
+    color: #707273;
+}
+.content_part_one_main .main{
+    margin-top: -30px;
+}
+.content_part_one_main .main span:nth-last-child(3){
+    float: right;
+    margin-right: 150px;
+}
+.content_part_one_main .main span:nth-last-child(1){
+    float: right;
+    margin-right: 130px;
+}
+.content_part_one_main .main .btn{
+    float: right;
+    margin-right: 130px;
+    width: 89px;
+    height: 34px;
+    border-radius: 16px;
+    border: 1px solid #7b6cd5;
+    text-indent: 1em;
+    margin-top: -10px;
+    padding-bottom: 10px;
+}
+.content_part_one_main .main .btn img:nth-child(2){
+    margin-left:66px;
+    cursor: pointer;
+}
+.content_part_one_main .main .btn img:nth-child(1){
+    margin-left: 50px;
+    cursor: pointer;
+}
+.content_part_one_main .main img:nth-last-child(4){
+    float: right;
+    width: 14px;
+    height: 14px;
+    margin-right: 30px;
+}
